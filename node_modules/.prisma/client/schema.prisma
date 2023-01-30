@@ -1,0 +1,39 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+model idols {
+  id        Int     @id(map: "idols_pk") @default(autoincrement())
+  name      String  @db.VarChar(50)
+  type      String  @db.VarChar(40)
+  user_id   Int
+  image_url String
+  rarity    Int     @default(0)
+  users     users   @relation(fields: [user_id], references: [id], onDelete: NoAction, onUpdate: NoAction)
+  market    market?
+}
+
+model market {
+  id       Int   @id(map: "market_pk") @default(autoincrement())
+  idol_id  Int   @unique
+  price    Int
+  owner_id Int
+  idols    idols @relation(fields: [idol_id], references: [id], onDelete: NoAction, onUpdate: NoAction, map: "market_fk0")
+  users    users @relation(fields: [owner_id], references: [id], onDelete: NoAction, onUpdate: NoAction)
+}
+
+model users {
+  id           Int      @id(map: "users_pk") @default(autoincrement())
+  account_name String   @unique @db.VarChar(30)
+  password     String   @db.VarChar(60)
+  diamonds     Int      @default(0)
+  peanuts      Int      @default(0)
+  nickname     String?  @db.VarChar(35)
+  idols        idols[]
+  market       market[]
+}
