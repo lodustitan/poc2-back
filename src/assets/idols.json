@@ -1,0 +1,74 @@
+{
+    "idols": [
+        {
+            "idol_id": 1,
+            "name": "Cheshire - Yeji",
+            "type": "normal",
+            "rarity": 4,
+            "image_url": "https://lv2-cdn.azureedge.net/itzy/2d1556ccc9094dd488b5ab8470c80e32-ITZY-CHESHIRE-teaser-%EC%98%88%EC%A7%80.jpg"
+        },
+        {
+            "idol_id": 2,
+            "name": "Cheshire - Ryujin",
+            "type": "normal",
+            "rarity": 4,
+            "image_url": "https://www.allkpop.com/upload/2022/11/content/122058/1668304724-image.png"
+        },
+        {
+            "idol_id": 3,
+            "name": "Cheshire - Chaeryeong",
+            "type": "normal",
+            "rarity": 4,
+            "image_url": "https://www.allkpop.com/upload/2022/11/content/131115/1668356123-fhqr6yjviaamakj.jpg"
+        },
+        {
+            "idol_id": 4,
+            "name": "Cheshire - Lia",
+            "type": "normal",
+            "rarity": 4,
+            "image_url": "https://lv2-cdn.azureedge.net/itzy/91fb437ad1754f0ebac43617788250bd-ITZY-CHESHIRE-teaser-%EB%A6%AC%EC%95%84.jpg"
+        },
+        {
+            "idol_id": 5,
+            "name": "Cheshire - Yuna",
+            "type": "normal",
+            "rarity": 4,
+            "image_url": "https://lv2-cdn.azureedge.net/itzy/da89ca75846f4458a074cee166a70c6f-ITZY-CHESHIRE-teaser-%EC%9C%A0%EB%82%98.jpg"
+        },
+        {
+            "idol_id": 6,
+            "name": "Checkmate - Yuna",
+            "type": "normal",
+            "rarity": 3,
+            "image_url": "https://lv2-cdn.azureedge.net/itzy/5cd2ae5e1a6e4b3091c131b66a9a3612-ITZY_CHECKMATE_%ED%8B%B0%EC%A0%80%EC%9D%B4%EB%AF%B8%EC%A7%80%232_%EC%9C%A0%EB%82%98.jpg"
+        },
+        {
+            "idol_id": 7,
+            "name": "Checkmate - Chaeryeong",
+            "type": "normal",
+            "rarity": 3,
+            "image_url": "https://lv2-cdn.azureedge.net/itzy/5cd2ae5e1a6e4b3091c131b66a9a3612-ITZY_CHECKMATE_%ED%8B%B0%EC%A0%80%EC%9D%B4%EB%AF%B8%EC%A7%80%232_%EC%9C%A0%EB%82%98.jpg"
+        },
+        {
+            "idol_id": 8,
+            "name": "Checkmate - Ryujin",
+            "type": "normal",
+            "rarity": 3,
+            "image_url": "https://lv2-cdn.azureedge.net/itzy/08ed31217dff472d96690eddd5b45b2c-ITZY_CHECKMATE_%ED%8B%B0%EC%A0%80%EC%9D%B4%EB%AF%B8%EC%A7%80%232_%EB%A5%98%EC%A7%84.jpg"
+        },
+        {
+            "idol_id": 9,
+            "name": "Checkmate - Lia",
+            "type": "normal",
+            "rarity": 3,
+            "image_url": "https://lv2-cdn.azureedge.net/itzy/27288c5b759d4e4aa5a4dcd8d32467a1-ITZY_CHECKMATE_%ED%8B%B0%EC%A0%80%EC%9D%B4%EB%AF%B8%EC%A7%80%232_%EB%A6%AC%EC%95%84.jpg"
+        },
+        {
+            "idol_id": 10,
+            "name": "Checkmate - Yeji",
+            "type": "normal",
+            "rarity": 3,
+            "image_url": "https://lv2-cdn.azureedge.net/itzy/2ec496429e0c44d095533284050af76c-ITZY_CHECKMATE_%ED%8B%B0%EC%A0%80%EC%9D%B4%EB%AF%B8%EC%A7%80%232_%EC%98%88%EC%A7%80.jpg"
+        }
+    ]
+}
