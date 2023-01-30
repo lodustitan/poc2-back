@@ -6,7 +6,8 @@
   "main": "script.js",
   "scripts": {
     "start": "node src/server.js",
-    "dev": "npx ts-node src/server.ts"
+    "dev:start": "npx ts-node src/server.ts",
+    "dev:seed": "npx prisma db seed" 
   },
   "prisma": {
     "seed": "npx ts-node prisma/seed.ts"
